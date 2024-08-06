@@ -9,7 +9,7 @@ import { useUser } from '@clerk/nextjs'
 import Webcam from 'react-webcam';
 import { Mic, StopCircle } from 'lucide-react';
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
-import { chatSession } from '@/utils/GeminiAiModal';
+import { chatSession } from '@/utils/GeminiAIModal';
 import { UserAnswer } from '@/utils/Schema';
 import { db } from '@/utils/db'
 import moment from 'moment';
