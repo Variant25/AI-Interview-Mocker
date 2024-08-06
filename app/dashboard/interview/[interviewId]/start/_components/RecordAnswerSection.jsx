@@ -59,8 +59,8 @@ function RecordAnswerSection({mockInterviewQuestion,activeQuestionIndex,intervie
         question:mockInterviewQuestion[activeQuestionIndex]?.Question,
         correctAns:mockInterviewQuestion[activeQuestionIndex]?.Answer,
         userAns:userAnswer,
-        feedback:JsonFeedbackResp?.Feedback,
-        rating:JsonFeedbackResp?.Rating,
+        feedback:JsonFeedbackResp?.feedback,
+        rating:JsonFeedbackResp?.rating,
         userEmail:user?.primaryEmailAddress.emailAddress,
         createdAt:moment().format('DD-MM-YYYY')
       })
