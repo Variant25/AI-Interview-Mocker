@@ -15,7 +15,7 @@ export default function Home() {
           layout="fill" 
           objectFit="cover" 
           alt="background-image" 
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover "
         />
         <div className="absolute text-center text-white ">
         <h2 className="text-xl md:text-5xl font-bold">Prepare for your Interview with AI</h2>  
@@ -35,13 +35,13 @@ export default function Home() {
             <li className="my-2">Receive Feedback & Rating</li>
           </ul>
       </div>
-    <div  className=" relative h-[50vh] flex items-center justify-center rounded-md">
+    <div  className=" relative h-[50vh] flex items-center justify-center rounded-md overflow-hidden">
     <Image 
           src={'/ai.avif'} 
           layout="fill" 
           objectFit="cover" 
           alt="background-image" 
-          className="h-full w-full object-cover rounded-lg"
+          className="h-full w-full object-cover rounded-lg transform transition-transform duration-500 hover:scale-110"
         />
     </div>
       </div>
@@ -51,13 +51,13 @@ export default function Home() {
          
           <div className='grid grid-cols-1 md:grid-cols-2 gap-5 my-5 px-5'>
      
-    <div  className=" relative h-[50vh] flex items-center justify-center rounded-md">
+    <div  className=" relative h-[50vh] flex items-center justify-center rounded-md overflow-hidden">
     <Image 
           src={'/Ai_interview.jpg'} 
           layout="fill" 
           objectFit="cover" 
           alt="interview-image" 
-          className="h-full w-full  rounded-lg"
+          className="h-full w-full  rounded-lg transform transition-transform duration-500 hover:scale-110"
         />
     </div>
     <div className="mt-12 px-5">
@@ -81,13 +81,13 @@ export default function Home() {
        
        </div>
      
-     <div  className=" relative h-[50vh] flex items-center justify-center rounded-md">
+     <div  className=" relative h-[50vh] flex items-center justify-center rounded-md overflow-hidden">
      <Image 
            src={'/feedback.jpg'} 
            layout="fill" 
            objectFit="cover" 
            alt="background-image" 
-           className="h-full w-full object-cover rounded-lg"
+           className="h-full w-full object-cover rounded-lg transform transition-transform duration-500 hover:scale-110"
          />
      </div>
     

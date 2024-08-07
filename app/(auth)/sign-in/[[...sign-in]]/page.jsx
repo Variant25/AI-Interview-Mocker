@@ -63,12 +63,11 @@ export default function Page() {
           </a>
 
           <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-            Welcome to Squid 🦑
+            Welcome to Ai Interview Mocker
           </h1>
 
           <p className="mt-4 leading-relaxed text-gray-500">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi nam dolorum aliquam,
-            quibusdam aperiam voluptatum.
+          Set up your mock interview with our advanced AI technology. Tailor your practice sessions effectively by leveraging the power of the Gemini API. Follow the simple steps to create, conduct, and receive feedback on your mock interviews.
           </p>
         </div>
 
